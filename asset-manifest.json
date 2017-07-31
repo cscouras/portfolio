@@ -1,7 +1,17 @@
 {
-  "main.css": "static/css/main.9a0fe4f1.css",
-  "main.css.map": "static/css/main.9a0fe4f1.css.map",
-  "main.js": "static/js/main.645e5782.js",
-  "main.js.map": "static/js/main.645e5782.js.map",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.ab51c38c.css",
+  "main.css.map": "static/css/main.ab51c38c.css.map",
+  "main.js": "static/js/main.40384e51.js",
+  "main.js.map": "static/js/main.40384e51.js.map",
+  "static/media/CS-logo.svg": "static/media/CS-logo.2879fdf9.svg",
+  "static/media/gameoflife.png": "static/media/gameoflife.f0be36f2.png",
+  "static/media/leaderboard.png": "static/media/leaderboard.faf1abe9.png",
+  "static/media/markdown.png": "static/media/markdown.c57bc5a2.png",
+  "static/media/pomodoro.png": "static/media/pomodoro.8d96e24e.png",
+  "static/media/randomquote.png": "static/media/randomquote.18e3e294.png",
+  "static/media/recipebox.png": "static/media/recipebox.1932324d.png",
+  "static/media/simon.png": "static/media/simon.5555f54a.png",
+  "static/media/twitch.png": "static/media/twitch.b6154cce.png",
+  "static/media/weather.png": "static/media/weather.d8e7adab.png",
+  "static/media/wiki.png": "static/media/wiki.e8927385.png"
 }
