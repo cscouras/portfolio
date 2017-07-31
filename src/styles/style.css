@@ -1,0 +1,116 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+p {
+  display: inline-block;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #f00;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+@supports (display:grid){
+
+
+
+  @media screen and (max-width: 600px){
+
+    .site {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-row-gap: 10px;
+    }
+
+    .header {
+      background: #333;
+      grid-column: span 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    .header img {
+      width: 20%;
+    }
+
+    .header h1 {
+      color: #fff;
+      font-size: 1.5em;
+      margin: 0 15px;
+    }
+
+    .projectSection {
+      grid-column: span 1;
+    }
+
+    .projectsTitle {
+      font-style: italic;
+      text-decoration: underline;
+      display: flex;
+      justify-content: flex-start;
+      align-content: center;
+      margin: 0 15px;
+    }
+
+    .card {
+      width: 100%;
+      height: auto;
+      border-bottom: 1px dotted black;
+    }
+
+    .cardTitle {
+      display: flex;
+      padding: 5px;
+      margin-top: 10px;
+      justify-content: center;
+    }
+
+    .card img {
+      display: flex;
+      justify-content: center;
+    }
+
+    .card .langList {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card p {
+      padding: 5px;
+      margin-left: 10px;
+    }
+
+    .footer {
+      grid-column: span 1;
+      grid-row: auto;
+      height: 20px;
+      background: #333;
+      color: white;
+    }
+
+  }
+}

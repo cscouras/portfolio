@@ -4,8 +4,10 @@
   "private": true,
   "homepage": "https://cscouras.github.io/portfolio",
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "node-sass-chokidar": "^0.0.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "^2.1.1"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
@@ -18,5 +20,9 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/cscouras/portfolio.git",
+  "author": "Chris Scouras <chris.scouras@gmail.com>",
+  "license": "MIT"
 }
